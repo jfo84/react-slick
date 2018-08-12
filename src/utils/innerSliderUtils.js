@@ -679,7 +679,7 @@ export const getTrackLeft = spec => {
   var targetSlide;
   var verticalOffset = 0;
 
-  if (fade || spec.slideCount === 1) {
+  if (fade) {
     return 0;
   }
 
